@@ -6,16 +6,17 @@ Cloudflare-Error is a set of clean and professional HTML templates designed for 
 
 ## Installation
 
-
 Modify each template to your liking and use a service such as [Netflify Drop](https://app.netlify.com/drop) to host your HTML templates temporarily. Then, head over to your custom page settings in your organisation's Cloudflare account and add each page as required using the full URL.
 
-
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Acknowledgements
-* [Refactoring UI](https://refactoringui.com/)
-* [Tailwind UI](https://tailwindui.com/)
+
+-   [Refactoring UI](https://refactoringui.com/)
+-   [Tailwind UI](https://tailwindui.com/)
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
