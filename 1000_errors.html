@@ -10,6 +10,62 @@
             integrity="sha512-l7qZAq1JcXdHei6h2z8h8sMe3NbMrmowhOl+QkP3UhifPpCW2MC4M0i26Y8wYpbz1xD9t61MLT9L1N773dzlOA=="
             crossorigin="anonymous"
         />
+        <style type="text/css">
+            /*阅读更多：https://moegirl.uk/MediaWiki:Gadget-site-styles.css
+            本文引自萌娘百科(https://zh.moegirl.org)，
+            文字内容默认使用《知识共享 署名-非商业性使用-相同方式共享 3.0》协议。*/
+
+            .heimu,
+            .heimu rt {
+                background-color: #252525;
+            }
+
+            .heimu,
+            .heimu a,
+            a .heimu,
+            a.new .heimu,
+            span.heimu a.new,
+            span.heimu a.external,
+            span.heimu a.external:visited,
+            span.heimu a.extiw,
+            span.heimu a.extiw:visited,
+            span.heimu a.mw-disambig,
+            span.heimu a.mw-redirect {
+                transition: color 0.13s linear;
+                color: #252525;
+                text-shadow: none;
+            }
+
+            span.heimu:hover,
+            span.heimu:active {
+                color: white;
+            }
+
+            span.heimu:hover a,
+            a:hover span.heimu {
+                color: lightblue;
+            }
+
+            span.heimu:hover a:visited,
+            a:visited:hover span.heimu {
+                color: #c5cae9;
+            }
+
+            span.heimu:hover a.new,
+            a.new:hover span.heimu {
+                color: #fcc;
+            }
+
+            span.heimu a.new:hover:visited,
+            a.new:hover:visited span.heimu {
+                color: #ef9a9a;
+            }
+
+            span.heimu:hover a.extiw:visited,
+            a.extiw:visited:hover span.heimu {
+                color: #d1c4e9;
+            }
+        </style>
     </head>
 
     <body class="antialiased-subpixel text-left layout-row">
@@ -37,7 +93,7 @@
             <div class="text-gray-400 pt-4 text-sm">
                 <span> ::CLOUDFLARE_ERROR_1000S_BOX:: </span>
                 <p>Ray ID: ::RAY_ID::</p>
-                <p>Client IP: ::CLIENT_IP:: (::GEO::)</p>
+                <p>Client IP: <span class="heimu">::CLIENT_IP:: (::GEO::)</span></p>
             </div>
         </div>
     </body>
