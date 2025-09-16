@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-error",
+  "version": "1.0.0",
+  "description": "Cloudflare-Error is a set of clean and professional HTML templates designed for use as error pages in Cloudflare's [custom page](https://support.cloudflare.com/hc/en-us/articles/200172706-Configuring-Custom-Pages-Error-and-Challenge-) section. This repository uses the latest version of Tailwind CSS served by Cloudflare's cdnjs.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/styles.css -o dist/styles.css --watch=false",
+    "build:prod": "NODE_ENV=production postcss src/styles.css -o dist/styles.css --watch=false",
+    "build:watch": "postcss src/styles.css -o dist/styles.css --watch",
+    "dev": "postcss src/styles.css -o dist/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

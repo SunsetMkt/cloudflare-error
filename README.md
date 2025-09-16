@@ -1,6 +1,24 @@
 # Cloudflare Error Pages
 
-Cloudflare-Error is a set of clean and professional HTML templates designed for use as error pages in Cloudflare's [custom page](https://support.cloudflare.com/hc/en-us/articles/200172706-Configuring-Custom-Pages-Error-and-Challenge-) section. This repository uses the latest version of Tailwind CSS served by Cloudflare's cdnjs.
+Cloudflare-Error is a set of clean and professional HTML templates designed for use as error pages in Cloudflare's [custom page](https://support.cloudflare.com/hc/en-us/articles/200172706-Configuring-Custom-Pages-Error-and-Challenge-) section. This repository uses the latest version of Tailwind CSS with tree shaking and an optimized build system.
+
+## Development
+
+This repository now includes a modern build system with Tailwind CSS tree shaking:
+
+```bash
+# Install dependencies
+npm install
+
+# Build CSS (development)
+npm run build
+
+# Build CSS (production, minified)
+npm run build:prod
+
+# Watch for changes during development
+npm run dev
+```
 
 ## Installation
 
